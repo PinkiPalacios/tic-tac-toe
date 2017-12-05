@@ -1,0 +1,64 @@
+body{
+    background-color: #CDD7D6;
+
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    border-radius:10px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    height: 200px
+}
+
+img{
+    width: 180px;
+    height: 180px;
+}
+
+.cell{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+
+}
+
+#first{
+    border-bottom-color: #999799;
+    border-bottom-width: 6px;
+    border-bottom-style:solid;
+}
+
+#second{
+    border-bottom-color: #999799;
+    border-bottom-width: 6px;
+    border-bottom-style:solid;    
+}
+
+.first{
+     border-right-color: #999799;
+     border-right-width: 6px;
+     border-right-style:solid;
+}
+
+.second{
+     border-right-color: #999799;
+     border-right-width: 6px;
+     border-right-style:solid;
+}
